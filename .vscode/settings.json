@@ -1,0 +1,14 @@
+{
+  "go.goroot": "${env:HOME}/go_sdk/go",
+  "go.gopath": "${env:HOME}/go",
+  "go.toolsManagement.autoUpdate": true,
+  "[go]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "golang.go"
+  },
+  "go.lintTool": "golangci-lint",
+  "go.lintOnSave": "package",
+  "go.testOnSave": false,
+  "go.coverOnSave": false,
+  "go.useLanguageServer": true
+}
